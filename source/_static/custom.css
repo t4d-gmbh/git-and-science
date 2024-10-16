@@ -1,0 +1,34 @@
+.pull {
+  color: red;
+}
+.push {
+  color: darkviolet;
+}
+.commit{
+  color: blue;
+}
+.fetch{
+  color: green;
+}
+.clone{
+  color: #ca80e9;
+}
+.merge{
+  color: lightgreen;
+}
+.rebase{
+  color: orange;
+}
+.add{
+  color: gray;
+}
+
+.admonition .sd-container-fluid {
+  margin-left: inherit !important;
+}
+.bigger {
+  font-size: 130%;
+}
+.smaller {
+  font-size: 60%;
+}
