@@ -9,9 +9,7 @@
 ./how-to-use-git-lfs.md
 ./gitLFS_UZH.md
 ```
-{% else %}
 
-```
 {% else %}
 <!-- BUILDING THE PAGES -->
 <!-- build the page content here -->
