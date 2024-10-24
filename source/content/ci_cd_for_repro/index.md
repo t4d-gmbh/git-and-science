@@ -4,12 +4,12 @@
 ```{toctree}
 :maxdepth: 2
 
-./slide1
+./using_docker
 
 ```
 {% else %}
 <!-- BUILDING THE PAGES -->
 <!-- build the page content here -->
-```{include} ./slide1.md
+```{include} ./using_docker.md
 ```
 {% endif %}
