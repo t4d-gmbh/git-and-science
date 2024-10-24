@@ -9,18 +9,31 @@
 ```{toctree}
 :maxdepth: 2
 
+./what_are_submodules
+./features
+./workflow
 ./use-cases-submodules
+./cicd_usage/index
 
 ```
 {% else %}
 <!-- BUILDING THE PAGES -->
 <!-- build the page content here -->
 
-A git submodule is a repository embedded inside another repository. 
-It allows you to include and manage external repositories within your main project. 
-This is particularly useful for incorporating third-party libraries or dependencies that are maintained separately.
 
+```{include} ./what_are_submodules.md
+```
+```{include} ./features.md
+```
+```{include} ./workflow.md
+```
 ```{include} ./use-cases-submodules.md
+```
+```{include} ./cicd_usage/index.md
+```
+```{include} ./cicd_usage/github.md
+```
+```{include} ./cicd_usage/gitlab.md
 ```
 {% endif %}
 
