@@ -1,3 +1,4 @@
+{% raw %}
 ## Using GitLab/GitHub CI/CD Pipelines to Create and Distribute Docker Images
 
 Both **GitLab** and **GitHub** provide robust CI/CD capabilities that can be leveraged to automate the creation and distribution of Docker images. Below is a high-level overview of how to set up CI/CD pipelines in both platforms for this purpose.
@@ -20,7 +21,7 @@ Both **GitLab** and **GitHub** provide robust CI/CD capabilities that can be lev
 ##### Step 1: Define the `.gitlab-ci.yml` File
 Create a `.gitlab-ci.yml` file in the root of your repository to define the CI/CD pipeline. Here’s a basic example:
 
-:::yaml
+```yaml
 stages:
   - build
   - push
@@ -40,7 +41,7 @@ push:
     - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin $CI_REGISTRY
     - docker tag myapp:latest $CI_REGISTRY/mygroup/myapp:latest
     - docker push $CI_REGISTRY/mygroup/myapp:latest
-:::
+```
 
 ##### Step 2: Configure Variables
 - Set up CI/CD variables in GitLab for `CI_REGISTRY`, `CI_REGISTRY_USER`, and `CI_REGISTRY_PASSWORD` to authenticate with your Docker registry.
@@ -50,7 +51,7 @@ push:
 ##### Step 1: Define the Workflow File
 Create a workflow file in the `.github/workflows` directory (e.g., `docker-build.yml`). Here’s a basic example:
 
-:::yaml
+```yaml
 name: Build and Push Docker Image
 
 on:
@@ -79,7 +80,7 @@ jobs:
         run: |
           docker tag myapp:latest myusername/myapp:latest
           docker push myusername/myapp:latest
-:::
+```
 
 ##### Step 2: Configure Secrets
 - In your GitHub repository settings, add secrets for `DOCKER_USERNAME` and `DOCKER_PASSWORD` to authenticate with your Docker registry.
@@ -91,9 +92,9 @@ Once the Docker images are built and pushed to the registry, they can be easily 
 
 - **Pulling Images**: Users can pull the images from the registry using the `docker pull` command:
   
-:::bash
+```bash
 docker pull myusername/myapp:latest
-:::
+```
 
 - **Deployment**: The images can be deployed to various environments (e.g., staging, production) using orchestration tools like Kubernetes or Docker Compose.
 
@@ -106,3 +107,4 @@ docker pull myusername/myapp:latest
 ### Conclusion
 
 By leveraging the CI/CD capabilities of **GitLab** and **GitHub**, you can automate the process of creating and distributing Docker images. This not only streamlines your development workflow but also ensures that your applications are consistently built and deployed across different environments. 🚀🐳
+{% endraw %}
