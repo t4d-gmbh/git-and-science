@@ -7,7 +7,7 @@ Reproducibility requires more than just managing code—it also involves version
 {% if slide %}
 <!-- BUILDING THE SLIDES -->
 ```{toctree}
-:maxdepth: 2
+:maxdepth: 1
 
 ./what_is_missing
 ./remote_services
