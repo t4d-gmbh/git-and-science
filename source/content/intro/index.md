@@ -4,12 +4,12 @@
 ```{toctree}
 :maxdepth: 2
 
-./slide1
+./historical_perspective
 
 ```
 {% else %}
 <!-- BUILDING THE PAGES -->
 <!-- build the page content here -->
-```{include} ./slide1.md
+```{include} ./historical_perspective.md
 ```
 {% endif %}
