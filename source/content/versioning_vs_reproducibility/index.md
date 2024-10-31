@@ -1,14 +1,17 @@
 # Versioning ⚡️Reproducibility
-
+{% if page %}
 <i class="fab fa-git"></i> is an excellent tool for version control, tracking changes in code and allowing for collaborative development.
 However, when it comes to **scientific reproducibility**, <i class="fab fa-git"></i> alone isn't sufficient.
 Reproducibility requires more than just managing code—it also involves versioning data, tracking the environment, ensuring consistent execution, and documenting the workflow in a way that others can reliably reproduce the results.
+
+{% endif %}
 
 {% if slide %}
 <!-- BUILDING THE SLIDES -->
 ```{toctree}
 :maxdepth: 1
 
+./git_vs_sci_reproducibility
 ./reproducibility
 ./what_is_missing
 ./reproduce/index
@@ -21,6 +24,8 @@ Reproducibility requires more than just managing code—it also involves version
 ```
 {% else %}
 <!-- BUILDING THE PAGES -->
+<!-- ```{include} ./git_vs_sci_reproducibility.md
+``` -->
 ```{include} ./reproducibility.md
 ```
 ```{include} ./what_is_missing.md

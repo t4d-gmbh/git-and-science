@@ -1,4 +1,4 @@
-# Introduction
+# <i class="fab fa-git"></i> in Science
 {% if slide %}
 <!-- BUILDING THE SLIDES -->
 ```{toctree}

@@ -11,6 +11,10 @@ This includes **randomness control**, i.e. the usage and specification of seeds 
 - Use simple and readable formats (e.g. `.YAML` or `.json`).
 - Track the configuration files in the same repository as your analysis scripts.
 
+:::{hint}
+If you use multiple machines, maintain separate configuration files for each.
+This way, you avoid manually updating settings in your scripts when switching machines.
+:::
 {%if page %}:::{%endif%}
 
 

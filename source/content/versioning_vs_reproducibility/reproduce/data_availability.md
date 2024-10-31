@@ -8,7 +8,7 @@ Data needs to be accessible and its usage and preprocessing properly documented.
   - Manage large datasets efficiently with <i class="fab fa-git"></i> Git Large File Storage.
 
 - **Publish Data** _if possible_:
-  - Use platforms like Zenodo for data sharing.
-  - Share the DOI and links to increase visibility.
+  - Use platforms like [Zenodo](https://zenodo.org/) for data sharing.
+  - Share the Digital Object Identifier (DOI) and links to increase visibility.
 
 {%if page %}:::{%endif%}
