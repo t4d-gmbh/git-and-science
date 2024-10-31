@@ -7,10 +7,9 @@
 {% if build == "slides" %}:numbered:{% endif %}
 
 content/intro/index
-content/versioning_vs_reproducibility/index
+content/project_mgmt_tools/index
 content/lfs/index
 content/submodules/index
-content/project_mgmt_tools/index
-content/ci_cd_for_repro/index
+content/versioning_vs_reproducibility/index
 content/exercise/index
 ```
