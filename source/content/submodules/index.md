@@ -1,8 +1,8 @@
-# <i class="fab fa-git"></i> Submodules
+# <i class="fab fa-git"></i> Submodules <i class="fa-solid fa-folder-tree"></i>
 {% if slide %}
 <!-- BUILDING THE SLIDES -->
 
-- A git submodule is a repository within another repository.
+- A <i class="fab fa-git"></i> submodule <i class="fa-solid fa-folder-tree"></i> is a repository within another repository.
 - It helps manage external repositories in your main project.
 - Useful for including third-party libraries or separately maintained dependencies.
 
