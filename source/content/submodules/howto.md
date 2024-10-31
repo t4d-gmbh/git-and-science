@@ -11,6 +11,3 @@ Here’s a simple overview of the basic commands for working with <i class="fab 
 | `git rm --cached [path-to-submodule]`       | Remove a submodule from the parent repository.                                                   |
 | `git submodule init`                        | Initialize submodules in a cloned repository.                                                    |
 | `git submodule update`                      | Update the submodules to the commit specified in the parent repo.                                |
-
-Other than that, simply work inside the submodule folder as if it were an ordinary <i class="fab fa-git"></i> repository.
-After any changes in a submodule, simply add the path to the submodule to a commit in the parent repository to update the commit the parent repository should track.
