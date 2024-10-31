@@ -6,6 +6,7 @@
 
 ./why-use-git-lfs.md
 ./comparison-git-gitlfs.md
+./git_data_model/index
 ./how-to-use-git-lfs.md
 ./gitLFS_UZH.md
 ```
@@ -16,6 +17,8 @@
 ```{include} ./why-use-git-lfs.md
 ```
 ```{include} ./comparison-git-gitlfs.md
+```
+```{include} ./git_data_model/index.md
 ```
 ```{include} ./how-to-use-git-lfs.md
 ```
