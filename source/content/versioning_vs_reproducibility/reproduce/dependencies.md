@@ -1,4 +1,4 @@
-{% if slide %}####{%else%}:::{card}{%endif%} Dependencies octicon}`package-dependencies`
+{% if slide %}####{%else%}:::{card}{%endif%} Dependencies {octicon}`package-dependencies`
 Refers to the libraries and frameworks used in the analysis.
 Specifying exact versions helps control for changes that could affect results.
 
