@@ -8,6 +8,8 @@
 
 - **Data Availability**: 
   - Contribute to the **availability of analyzed data** by publishing the analyzed data along with the exact dataset version used in your analysis.
+    - Use data repositories like [Zenodo](https://zenodo.org/), [Dryad](https://datadryad.org/), etc.
+    - Publishers sometimes offer to publish the data in a separate data publication. E.g. [scientific data](https://www.nature.com/sdata/), [Data in Brief](https://www.sciencedirect.com/journal/data-in-brief), etc.
 {% else %}
 While tracking bigger files, an binary files in particular, is not <i class="fab fa-git"></i>'s strong suite there exists an extension, called <i class="fab fa-git"></i> LFS, that efficiently makes up for this shortcoming.
 
