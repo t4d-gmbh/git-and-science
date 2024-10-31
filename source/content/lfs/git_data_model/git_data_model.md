@@ -6,7 +6,7 @@ One of the core functionalities of <i class="fab fa-git"></i> is its ability to 
 But how does the underlying mechanisms and data structures look like?
 {% endif %}
 
-### <i class="fab fa-git"></i>’s Data Model
+:::{card} <i class="fab fa-git"></i>’s Data Model
 {% if page %}
 <i class="fab fa-git"></i>’s data model is based on three main concepts: 
 {% endif %}
@@ -26,8 +26,9 @@ Each tree object includes the file names, permissions, and the SHA-1 hashes of t
 {% if page %}
 A commit object contains a pointer to a tree object (representing the state of the repository), metadata (such as the author, committer, and commit message), and pointers to parent commits.
 {% endif %}
+:::
 
-### Tracking Changes
+:::{card} Tracking Changes
 {% if page %}
 <i class="fab fa-git"></i> tracks changes to files through a series of stages:
 {% endif %}
@@ -46,8 +47,9 @@ When you stage a file using `git add`, <i class="fab fa-git"></i> calculates the
 {% if page %}
 The commit object is added to the repository’s history, forming a chain of commits that represent the project’s evolution over time.
 {% endif %}
+:::
 
-### Efficient Storage
+:::{card} Efficient Storage
 {% if page %}
 <i class="fab fa-git"></i> uses several techniques to efficiently store and manage file changes:
 {% endif %}
@@ -67,3 +69,4 @@ In summary, <i class="fab fa-git"></i>’s ability to track files and manage cha
 By using blobs, trees, and commits, <i class="fab fa-git"></i> ensures that file contents are stored uniquely and changes are tracked accurately. 
 The staging area and efficient storage techniques like delta compression and packfiles contribute to <i class="fab fa-git"></i>’s performance and reliability as a version control system.
 {% endif %}
+:::
