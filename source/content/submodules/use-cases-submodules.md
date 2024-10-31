@@ -29,4 +29,10 @@ using-git-in-accademia
 
 {% else %}
 
+Submodules can be used in a variety of scenarios to help manage complex projects. Here are some common use cases for submodules:
+
+1. **Third-party Libraries {octicon}`package-dependencies`**: Including third-party libraries or dependencies in your project.
+2. **Shared Code {octicon}`share-android;0.8em`**: Managing a common codebase that is used across multiple projects.
+3. **Separate Repositories <i class="fa-solid fa-folder-tree"></i>**: Linking multiple repositories together to manage different parts of a project.
+
 {% endif %}

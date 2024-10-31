@@ -3,7 +3,7 @@
 ```
 ```{toctree}
 :maxdepth: {% if build == "slides" %}1{% else %}4{% endif %}
-:caption: Git and Science
+:caption: Git in Science
 {% if build == "slides" %}:numbered:{% endif %}
 
 content/intro/index

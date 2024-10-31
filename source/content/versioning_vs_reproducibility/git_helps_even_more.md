@@ -3,7 +3,7 @@
 - **Independent Development**: 
   - Combining scripts and datasets in a single repository may not be optimal, as they can evolve separately, particularly datasets that may be utilized in various studies.
 
-- **Utilizing Git Submodules**: 
+- **Utilizing Git Submodules <i class="fa-solid fa-folder-tree"></i>**: 
   - Leverage `git submodule` to effectively connect multiple repositories.
 
 - **Version Tracking**: 

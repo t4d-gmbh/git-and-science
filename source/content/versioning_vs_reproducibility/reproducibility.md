@@ -7,6 +7,7 @@
 > We focus on a strict interpretation of reproducibility: the same implementation of a method applied to the exact same data must produce the same result.
 
 - This approach is common in computer science and can be supported by tools like <i class="fab fa-git"></i> and related remote services.
+
 {% else %}
 
 Before we begin, it is important to clarify the definition of the term "reproducibility."
@@ -30,3 +31,8 @@ While reproducibility could also imply that applying the same method to the same
 This strict interpretation of reproducibility is more common in computer science.
 We will demonstrate how <i class="fab fa-git"></i> and related remote services can be utilized to enhance the reproducibility of computational studies in this sense.
 {% endif %}
+
+:::{attention}
+Some products require strict certification processes like the [ASME VVUQ standard](https://www.asme.org/codes-standards/publications-information/verification-validation-uncertainty).
+For example, medical devices must comply with the [ASME V&V 40 standard](https://go.asme.org/vnv40committee) where reproducibility is part of the verification and validation process.
+:::
