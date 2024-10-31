@@ -1,8 +1,8 @@
-### GitHub Actions {octicon}`play;0.8em` Example: Handling Submodules
+### <i class="fab fa-github"></i> GitHub Workflow Example: Handling Submodules
 {% if page %}
 In GitHub Actions {octicon}`play;0.8em`, you can use the `actions/checkout` action with the `submodules` option set to `true` to ensure submodules are cloned and updated as part of the workflow.
 {% endif %}
-**Example: GitHub Actions {octicon}`play;0.8em` Workflow (`.github/workflows/ci.yml`)**
+**Example: GitHub {octicon}`play;0.8em` Workflow (`.github/workflows/ci.yml`)**
 
 ```yaml
 name: CI with Submodules
