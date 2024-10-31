@@ -3,10 +3,9 @@
 :caption: Git in Science
 
 intro/index
-versioning_vs_reproducibility/index
+project_mgmt_tools/index
 lfs/index
 submodules/index
-project_mgmt_tools/index
-ci_cd_for_repro/index
+versioning_vs_reproducibility/index
 exercise/index
 ```
