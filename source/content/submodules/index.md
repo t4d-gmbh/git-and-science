@@ -4,7 +4,7 @@
 
 - A <i class="fab fa-git"></i> submodule <i class="fa-solid fa-folder-tree"></i> is a repository within another repository.
 - It helps manage external repositories in your main project.
-- Useful for including third-party libraries or separately maintained dependencies.
+- They are useful for including third-party libraries or separately maintained dependencies.
 
 ```{toctree}
 :maxdepth: 2
