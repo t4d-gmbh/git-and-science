@@ -1,6 +1,6 @@
 # Project Management Tools
 
-Project management tools in GitHub and GitLab are essential for maintaining best practices and ensuring scientific integrity in software development and research projects.
+Project management tools in GitHub<i class="fab fa-github"></i> and GitLab<i class="fab fa-gitlab"></i> are essential for maintaining best practices and ensuring scientific integrity in software development and research projects.
 These platforms offer a range of features that support collaboration, transparency, and reproducibility, which are critical components of scientific work.
 
 {% if slide %}
