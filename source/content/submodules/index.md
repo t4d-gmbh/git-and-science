@@ -11,6 +11,7 @@
 
 ./what_are_submodules
 ./features
+./benefits
 ./workflow
 ./use-cases-submodules
 ./cicd_usage/index
@@ -24,6 +25,8 @@
 ```{include} ./what_are_submodules.md
 ```
 ```{include} ./features.md
+```
+```{include} ./benefits.md
 ```
 ```{include} ./workflow.md
 ```
