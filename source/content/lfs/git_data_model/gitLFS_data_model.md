@@ -13,7 +13,7 @@ The pointer file is committed to the <i class="fab fa-git"></i> repository, whil
 <i class="fab fa-git"></i> LFS replaces large files in a <i class="fab fa-git"></i> repository with small pointer files containing metadata, storing the actual files separately.
 {% endif %}
 
-**Storing Large Files:** {% if page %}
+**Storing Large Files <i class="fa-solid fa-database"></i>** {% if page %}
 The actual content of the large file is stored on a remote LFS server. This server can be a dedicated LFS server, a cloud storage service, or any other storage solution that supports <i class="fab fa-git"></i> LFS.
 When you push your changes to the remote repository, <i class="fab fa-git"></i> LFS uploads the large files to the LFS server and commits the pointer files to the <i class="fab fa-git"></i> repository.
 {% else %}
