@@ -1,6 +1,8 @@
-# What are <i class="fab fa-git"></i> submodules <i class="fa-solid fa-folder-tree"></i>?
+## What are <i class="fab fa-git"></i> submodules <i class="fa-solid fa-folder-tree"></i>?
 
-A git submodule is a <i class="fab fa-git"></i> repository embedded inside another <i class="fab fa-git"></i> repository. 
+A <i class="fab fa-git"></i> submodule is essentially a repository embedded within another repository. 
+It allows you to include and manage external repositories within your main project. 
+This is particularly useful for integrating third-party libraries or dependencies that are maintained separately.
 
 :::{note}
 Once a submodule is initialized and updated, its content appears as a regular folder inside the parent repository.

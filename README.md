@@ -1,8 +1,8 @@
 # Git in Science
 
-This is T4D's practical guide for professionals and hobbyists that want to
-learn [more] about how [git](https://git-scm.com/) and related remote services
-allow to enhance the quality of scientific work.
+This is T4D's practical guide for professionals and hobbyists who want to
+learn [more] about how [Git](https://git-scm.com/) and related remote services
+can enhance the quality of scientific work.
 
 <!-- include-before -->
 

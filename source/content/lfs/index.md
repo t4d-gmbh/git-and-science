@@ -1,4 +1,4 @@
-# <i class="fab fa-git"></i> Large File System (LFS) 
+# <i class="fab fa-git"></i> Large File Storage (LFS) 
 {% if slide %}
 <!-- BUILDING THE SLIDES -->
 ```{toctree}
