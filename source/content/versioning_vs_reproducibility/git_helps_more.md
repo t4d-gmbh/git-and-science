@@ -7,11 +7,13 @@
   - Use <i class="fab fa-git"></i> LFS to efficiently track and version larger datasets.
 
 - **Data Availability**: 
-  - Contribute to the **availability of analyzed data** by publishing the analyzed data along with the exact dataset version used in your analysis.
-    - Use data repositories like [Zenodo](https://zenodo.org/), [Dryad](https://datadryad.org/), etc.
-    - Publishers sometimes offer to publish the data in a separate data publication. E.g. [scientific data](https://www.nature.com/sdata/), [Data in Brief](https://www.sciencedirect.com/journal/data-in-brief), etc.
-{% else %}
-While tracking bigger files, an binary files in particular, is not <i class="fab fa-git"></i>'s strong suite there exists an extension, called <i class="fab fa-git"></i> LFS, that efficiently makes up for this shortcoming.
+  - Contribute to the **availability of analyzed data** by publishing your data alongside the exact version of the dataset in your analysis.
+    - Consider data repositories like [Zenodo](https://zenodo.org/), [Dryad](https://datadryad.org/), etc.
+    - Some publishers offer to publish the data in a separate data publications, such as [Scientific data](https://www.nature.com/sdata/) or [Data in Brief](https://www.sciencedirect.com/journal/data-in-brief).
 
-With <i class="fab fa-git"></i> LFS you can efficiently track and version even bigger dataset and thus contribute to the **availability of the analysed data** by publishing analyzed data, along with the exact version of the dataset that you used for your analysis.
+{% else %}
+
+While tracking large binary files is not <i class="fab fa-git"></i>'s strong suit, there is an extension called <i class="fab fa-git"></i> LFS that efficiently makes up for this limitation.
+
+With <i class="fab fa-git"></i> LFS, you can efficiently track and version larger dataset, thereby contributing to the **availability of analysed data** by publishing your findings alongside the exact version of the dataset used in your analysis.
 {% endif %}
