@@ -10,7 +10,7 @@ release = version
 # Basic Project info
 # ###
 project = 'Git and Science'
-copyright = '2023-2024, T4D GmbH'
+copyright = '2023-2024; T4D GmbH'
 author = 'Jonas I. Liechti'
 
 # -- General configuration ---------------------------------------------------
