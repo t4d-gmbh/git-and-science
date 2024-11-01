@@ -1,5 +1,5 @@
 {% if slide %}####{%else%}:::{card}{%endif%} Workflow Documentation
-Clearly documenting the steps taken in the analysis to allow others to understand and replicate the process.
+Clearly document the steps taken in the analysis to allow others to understand and replicate the process.
 
 **How?**
 
