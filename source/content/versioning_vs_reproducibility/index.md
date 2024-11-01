@@ -1,8 +1,9 @@
 # Versioning ⚡️Reproducibility
 {% if page %}
-<i class="fab fa-git"></i> is an excellent tool for version control, tracking changes in code and allowing for collaborative development.
-However, when it comes to **scientific reproducibility**, <i class="fab fa-git"></i> alone isn't sufficient.
-Reproducibility requires more than just managing code—it also involves versioning data, tracking the environment, ensuring consistent execution, and documenting the workflow in a way that others can reliably reproduce the results.
+<i class="fab fa-git"></i> is an excellent tool for version control, allowing you to track changes in code and facilitate collaborative development.
+However, achieving **scientific reproducibility** requires more than just using <i class="fab fa-git"></i>.
+
+Reproducibility encompasses not only code management but also the versioning od data, tracking the computational environment, ensuring consistent execution, and thoroughly documenting the workflow. This comprehensive approach enables others to reliably reproduce your results.
 
 {% endif %}
 
