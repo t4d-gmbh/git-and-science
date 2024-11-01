@@ -4,7 +4,7 @@
 - **Reproducibility** is achieved when an analysis can be repeated using the same data, yielding the same results.
 - **Replicability** occurs when an analysis with different data on the same study subject leads to the same conclusions.
 
-> We focus on a strict interpretation of reproducibility: the same implementation of a method applied to the exact same data must produce the same result.
+> We focus on a strict interpretation of reproducibility: **The same implementation of a method applied to the exact same data must produce the same result**.
 
 - This approach is common in computer science and can be supported by tools like <i class="fab fa-git"></i> and related remote services.
 

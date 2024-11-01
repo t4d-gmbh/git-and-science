@@ -1,4 +1,4 @@
-## Advanced GitHub<i class="fab fa-github"></i> Features for Project Management
+## Advanced <i class="fab fa-github"></i>&<i class="fab fa-gitlab"></i> Features for Project Management
 
 :::{card}
 **Project Boards**{% if page %}

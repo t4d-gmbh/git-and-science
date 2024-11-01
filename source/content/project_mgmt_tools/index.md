@@ -9,6 +9,7 @@ These platforms offer a range of features that support collaboration, transparen
 :maxdepth: 2
 
 ./key_features_and_benefits
+./key_features_and_benefits_2
 ./project_management_tools
 ./research_project_workflow_example
 
@@ -17,6 +18,8 @@ These platforms offer a range of features that support collaboration, transparen
 <!-- BUILDING THE PAGES -->
 <!-- build the page content here -->
 ```{include} ./key_features_and_benefits.md
+```
+```{include} ./key_features_and_benefits_2.md
 ```
 ```{include} ./project_management_tools.md
 ```

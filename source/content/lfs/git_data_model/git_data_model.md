@@ -11,7 +11,7 @@ But how does the underlying mechanisms and data structures look like?
 <i class="fab fa-git"></i>’s data model is based on three main concepts: 
 {% endif %}
 
-**Blobs (Binary Large Objects) <i class="fa-solid fa-file-binary"></i>** are used to store the contents of files. 
+**Blobs (Binary Large Objects)** are used to store the contents of files. 
 {% if page %}
 Each blob is identified by a SHA-1 hash of its content, ensuring that identical files are stored only once.
 Blobs do not contain any metadata about the file, such as its name or permissions.

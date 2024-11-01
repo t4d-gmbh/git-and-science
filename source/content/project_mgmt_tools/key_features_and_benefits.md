@@ -1,6 +1,6 @@
-## Key Features and Benefits
+## Key Features and Benefits{% if slide %} 1/2{% endif %}
 :::{card}
-### Version Control with <i class="fab fa-git"></i>'s Feature Branch Workflow
+### Version Control with Feature Branch Workflow
 {% if page %}
 GitHub<i class="fab fa-github"></i> and GitHub<i class="fab fa-gitlab"></i> allow teams to track changes, revert to previous versions, and collaborate seamlessly on code. 
 This ensures that all modifications are documented, which is crucial for **transparency and accountability**.
@@ -29,31 +29,3 @@ Pull (<i class="fab fa-github"></i>) and Merge Requests (<i class="fab fa-gitlab
 {% endif %}
 :::
 
-:::{card}
-
-### Continuous Integration/Continuous Deployment (CI/CD)
-{% if page %}
-GitHub<i class="fab fa-github"></i> Actions and GitLab<i class="fab fa-gitlab"></i> CI/CD provide automated testing and deployment pipelines. These tools ensure that code changes are tested and validated before being merged, reducing risk of introducing errors and ensuring that the codebase remains stable and reliable.
-{% else %}
-Automated testing and deployment pipelines reduce risk of errors and ensure codebase stability.
-{% endif %}
-:::
-
-:::{card}
-### Documentation
-{% if page %}
-Wikis and README files on both platforms support comprehensive documentation. Proper documentation is essential for reproducibility, allowing others to understand and replicate the work.
-{% else %}
-Comprehensive documentation is essential for reproducibility, allowing others to understand and replicate the work.
-{% endif %}
-:::
-
-:::{card}
-
-### Collaboration and Communication
-{% if page %}
-Comments and Discussions on GitHub<i class="fab fa-github"></i> and GitLab<i class="fab fa-gitlab"></i> faciliate communication by allowing users to comment on code, issues, and merge requests. This ensures that team members stay aligned and that key decisions are well-documented.
-{% else %}
-Facilitate communication by enabling comments on code, issues, and merge requests, keeping team members aligned and ensuring key decisions are well documented.
-{% endif %}
-:::

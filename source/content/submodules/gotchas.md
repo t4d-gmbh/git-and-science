@@ -1,9 +1,6 @@
 ## Gotchas for <i class="fab fa-git"></i> Submodules
 
-1. **Submodules Do Not Update Automatically** ⚠️:
-{% if slide %}
-Submodules are not automatically updated to the latest commit.
-{% else %}
+1. **Submodules Do Not Update Automatically** ⚠️: {% if slide %}Submodules are not automatically updated to the latest commit.{% else %}
 When you clone a repository that contains submodules, the latter are not automatically updated to the latest commit. You need to run `git submodule update` or use the `--recurse-submodules` option when cloning to ensure they are initialized and updated.
 {% endif %}
 
@@ -34,23 +31,14 @@ When you check out a submodule, it is usually in a "detached HEAD" state, genera
 
 {% endif %}
 
-4. **Submodule URLs Can Change** 🔗:
-{% if slide %}
-You might need to update the `.gitmodules` file manually.
-{% else %}
+4. **Submodule URLs Can Change** 🔗:{% if slide %} You might need to update the `.gitmodules` file manually. {% else %}
 If the URL of a submodule repository changes, you must update the `.gitmodules` file in the parent repository. Failing to do so can lead to broken links when trying to update or clone the submodule.
 {% endif %}
 
-5. **Cloning with Submodules Requires Extra Steps** 🛠️:
-{% if slide %}
-Remember to use the `--recurse-submodule` option when cloning.
-{% else %}
+5. **Cloning with Submodules Requires Extra Steps** 🛠️:{% if slide %} Remember to use the `--recurse-submodule` option when cloning. {% else %}
 When cloning a repository with submodules, you need to use the `--recurse-submodules` option or run `git submodule init` and `git submodule update` afterward. Forgetting these steps can lead to missing submodule content.
 {% endif %}
 
-6. **Submodules Can Increase Complexity** 🌀:
-{% if slide %}
-This might be confusing for newcomers.
-{%else%}
+6. **Submodules Can Increase Complexity** 🌀:{% if slide %} This might be confusing for newcomers. {%else%}
 Using submodules can add complexity to your project structure. If not managed properly, it can lead to confusion about which version of a submodule is being used and how it relates to the parent repository.
 {% endif %}

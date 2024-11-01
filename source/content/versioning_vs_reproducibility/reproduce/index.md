@@ -1,4 +1,4 @@
-## Where <i class="fab fa-git"></i> and its remote services can help
+## Where <i class="fab fa-git"></i> and its Remote Services Can Help
 
 {% if slide %}
 <!-- BUILDING THE SLIDES -->
