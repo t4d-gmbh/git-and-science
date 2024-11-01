@@ -2,7 +2,7 @@
 Involves documenting parameters and settings that guide the analysis, which is essential for reproducing the same results.
 
 :::{note}
-This includes **randomness control**, i.e. the usage and specification of seeds whenever possible.
+This includes **randomness control**, i.e., the use and specification of seeds whenever possible.
 :::
 
 **How?**

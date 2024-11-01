@@ -1,5 +1,5 @@
 {% if slide %}####{%else%}:::{card}{%endif%} Transitive Dependencies {octicon}`package-dependencies`{octicon}`package-dependencies;0.8em`{octicon}`package-dependencies;0.6em`{octicon}`package-dependencies;0.4em`
-Addresses the indirect dependencies required by your primary libraries.
+Address the indirect dependencies required by your primary libraries.
 Managing these ensures that all necessary components are accounted for.
 
 **How?**

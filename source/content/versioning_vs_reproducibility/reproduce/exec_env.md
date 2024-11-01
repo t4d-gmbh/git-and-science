@@ -3,7 +3,7 @@ Covers the operating system, hardware, and any relevant settings that could infl
 
 **How?**
 
-- Report hardware and hardware configuration. E.g. with `lshw` or `inxi`.
+- Report hardware and hardware configuration. E.g., with `lshw` or `inxi`.
 
 {%if page %}:::{%endif%}
 
