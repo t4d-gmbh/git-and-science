@@ -19,7 +19,7 @@ In this course, we adopt the widely accepted interpretation that reproducibility
 Replicability, on the other hand, refers to the situation where an analysis conducted with different data on the same study subject leads to the same conclusions.
 
 :::{note}
-For an in-depth exploration of this subject, we recommend reading [Reproducibility and Replicability in Science](https://nap.nationalacademies.org/read/25303/chapter/6) (National Academies of Sciences, 2019)
+For an in-depth exploration of this subject, we recommend reading [Understanding Reproducibility and Replicability](https://nap.nationalacademies.org/read/25303/chapter/6) (In: _Reproducibility and Replicability in Science_, National Academies of Sciences, 2019)
 :::
 
 Based on these definitions, our focus here is on a narrow interpretation of reproducibility. More specifically we consider reproducibility when the same implementation of a method applied to the exact same data produces the same result, as it is commonly adopted in computer science.
