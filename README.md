@@ -6,6 +6,14 @@ can enhance the quality of scientific work.
 
 <!-- include-before -->
 
+---
+
+_If you find this course useful, please share it with others! Show your support by giving it a 🌟 using the ⭐-button at the top right of the page._
+
+_By starring the repository, you enhance its visibility, making it easier for others to 🔍 discover and 👩‍🎓 learn how Git can be utilized to improve scientific research!_
+
+---
+
 ## Contributing 🤝🎉
 
 We welcome contributions to this project!
