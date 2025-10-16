@@ -1,9 +1,22 @@
 ```{include} ../README.md
 :end-before: <!-- include-before -->
 ```
+
+
+### Authors
+
+**Dr. Jonas I. Liechti**  
+**Dr. Matteo Delucchi**
+
+
+### Editors
+
+**Barbara Mejia**
+
+
 ```{toctree}
 :maxdepth: {% if build == "slides" %}1{% else %}4{% endif %}
-:caption: Git in Science
+:caption: Content
 {% if build == "slides" %}:numbered:{% endif %}
 
 content/intro/index
