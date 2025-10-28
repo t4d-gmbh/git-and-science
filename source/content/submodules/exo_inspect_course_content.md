@@ -1,10 +1,10 @@
 ## Exercise: The Course Content Structure
 
 {% if page %}
-Now that we know about Git submodules, let's have a closer look at how this course material is actually structured and how the web-content is built.
+Now that we know about Git submodules, let's take a closer look at how the material of this course is actually structured and how the web-content is built.
 
 {% endif %}
-Each of the 4 parts in of this course resides in is its own Repository:
+Each of the 4 parts of this course resides in its own Repository:
 
 ::::{grid} 2 2 2 2
 :gutter: 3
@@ -44,7 +44,7 @@ In **<https://github.com/t4d-gmbh/using-git-in-academia>** the four parts are co
 :class-header: sd-bg-warning sd-text-white
 
 - How are the four parts included into the main repository?
-- What are the advantages of such setup?
+- What are the advantages of such a setup?
 - What are potential drawbacks?
 
 :::
@@ -63,8 +63,8 @@ In **<https://github.com/t4d-gmbh/using-git-in-academia>** the four parts are co
 ::: {admonition} How the 4 parts are included
 :class: tip, dropdown
 
-The four parst are handled as submodules and added in the `srouce/content/` derectory.
-This is specified in the [`.gitmodules`](https://github.com/t4d-gmbh/using-git-in-academia/blob/main/.gitmodules) file that has entries of the from:
+The four parts are handled as submodules and added in the `source/content/` directory.
+This is specified in the [`.gitmodules`](https://github.com/t4d-gmbh/using-git-in-academia/blob/main/.gitmodules) file that has entries in the form:
 
 ```toml
 [submodule "source/content/working-with-git"]
@@ -73,7 +73,7 @@ This is specified in the [`.gitmodules`](https://github.com/t4d-gmbh/using-git-i
 	branch = main
 ```
 
-With this setup we can fetch to content of the submodules (e.g. with `git submodule update --remote`) "unpacking" the content of the repositories into the specificied paths.
+With this setup we can fetch the content of the submodules (e.g. with `git submodule update --remote`) "unpacking" the content of the repositories into the specified paths.
 
 The actual import of the content is then initiated in the `source/index.md` file with import block like this (simplified):
 
@@ -88,10 +88,10 @@ content/working-with-git/source/content/index
 \```
 ```
 
-Finally, the process is automated in the `pages.yml` workflow, that fetches the fours submodules for use (see [relevant lines](https://github.com/t4d-gmbh/using-git-in-academia/blob/5e814c73b3b31b1311b54a8be37976f3da465c83/.github/workflows/pages.yml#L34-L35)), builds the pages and the slides ([here](https://github.com/t4d-gmbh/using-git-in-academia/blob/5e814c73b3b31b1311b54a8be37976f3da465c83/.github/workflows/pages.yml#L41-L46)) and deploys the generated `html` content to a static page ([here](https://github.com/t4d-gmbh/using-git-in-academia/blob/5e814c73b3b31b1311b54a8be37976f3da465c83/.github/workflows/pages.yml#L47-L55)).
+Finally, the process is automated in the `pages.yml` workflow, that fetches the four submodules for us (see [relevant lines](https://github.com/t4d-gmbh/using-git-in-academia/blob/5e814c73b3b31b1311b54a8be37976f3da465c83/.github/workflows/pages.yml#L34-L35)), builds the pages and the slides ([here](https://github.com/t4d-gmbh/using-git-in-academia/blob/5e814c73b3b31b1311b54a8be37976f3da465c83/.github/workflows/pages.yml#L41-L46)) and deploys the generated `html` content to a static page ([here](https://github.com/t4d-gmbh/using-git-in-academia/blob/5e814c73b3b31b1311b54a8be37976f3da465c83/.github/workflows/pages.yml#L47-L55)).
 :::
 
-:::{admonition} Adantages of such setup
+:::{admonition} Advantages of such a setup
 :class: tip, dropdown
 
 With submodules, we can **decouple the content of each part** from each other and the main course.
@@ -110,7 +110,7 @@ Finally, the **parts can be viewed on their own**, see e.g. https://t4d-gmbh.git
 :class: tip, dropdown
 
 Using **Git submodules generally adds a layer of complexity** to a project, which makes it more difficult to handle, especially for collaborators providing smaller contributions.
-Splitting up the content into four different repositories and providing the actual `html` content from a fifth repository, that simply aggregates the four parts obstructs a simple mapping from the individual html pages to the markdown files that define them.
+Splitting up the content into four different repositories and providing the actual `html` content from a fifth repository, that simply aggregates the four parts obstructs a simple mapping from the individual `html` pages to the markdown files that define them.
 
 An additional drawback of submodules can be the decoupling of versions:
 A **change in any of the submodules is not automatically picked up** when running `git submodule update` in the main repository.
