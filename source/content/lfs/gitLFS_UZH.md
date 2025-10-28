@@ -18,8 +18,8 @@ For long-term data storage, it is recommended to use [OneDrive](https://uzh-my.s
 
 - Popular <i class="fab fa-git"></i> hosting services like GitHub, GitLab, and Bitbucket support <i class="fab fa-git"></i> LFS.
 - Self-hosted <i class="fab fa-git"></i> servers require additional configuration to enabel <i class="fab fa-git"></i> LFS.
-- <i class="fab fa-git"></i> LFS is **not supported** on the [IMATH GitLab instance](https://git.math.uzh.ch/).
-- <i class="fab fa-git"></i> LFS is supported on the [UZH GitLab instance](https://gitlab.uzh.ch/).
+- <i class="fab fa-git"></i> LFS is **supported** on the [IMATH GitLab instance](https://git.math.uzh.ch/).
+- <i class="fab fa-git"></i> LFS is **supported** on the [UZH GitLab instance](https://gitlab.uzh.ch/).
   - **Size Limit**: 15 GB per project.
   - **Data Storage**: [Switch Cloud](https://www.switch.ch/en/competencies/cloud) (Switzerland).
   - **Data Retention**: Data is deleted after 12 months of inactivity.
