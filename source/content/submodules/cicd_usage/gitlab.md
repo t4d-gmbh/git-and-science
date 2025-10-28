@@ -1,4 +1,4 @@
-### <i class="fab fa-gitlab"></i> Pipeline: Handling Submodules
+### <i class="fab fa-gitlab"></i> GitLab Pipeline Example
 {% if page %}
 In GitLab CI, you can add the `GIT_SUBMODULE_STRATEGY` option to ensure submodules are fetched during the CI pipeline.
 {% endif %}
@@ -7,10 +7,11 @@ In GitLab CI, you can add the `GIT_SUBMODULE_STRATEGY` option to ensure submodul
 ```yaml
 
 variables:
-  GIT_SUBMODULE_STRATEGY: recursive  # Or 'normal'
-  GIT_SUBMODULE_FORCE_HTTPS: "true"  # Rewrite url to use HTTPS
-  GIT_SUBMODULE_DEPTH: 0             # Fetch full history
-
+  GIT_SUBMODULE_STRATEGY: recursive    # Or 'normal'
+  GIT_SUBMODULE_FORCE_HTTPS: "true"    # Rewrite url to use HTTPS
+  GIT_SUBMODULE_DEPTH: 0               # Fetch full history
+  GIT_SUBMODULE_UPDATE_FLAGS: --remote # Checkout latest commit on
+                                       # specified branch
 stages:
   - build
 

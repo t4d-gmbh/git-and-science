@@ -1,4 +1,4 @@
-## Use Cases for Submodules
+## Use Cases
 {% if build == "pages" %}
 
 ### Third-party Libraries
