@@ -5,9 +5,9 @@ Popular <i class="fab fa-git"></i> hosting services like GitHub, GitLab, Bitbuck
 
 For self-hosted <i class="fab fa-git"></i> servers, it is important to ensure <i class="fab fa-git"></i> LFS support is enabled. This may require additional installation and configuration because <i class="fab fa-git"></i> LFS stores large files in a separate storage location, which requires extra server-side support management (e.g., storage, authentication, bandwidth handling).
 
-At the IMATH, <i class="fab fa-git"></i> LFS is **NOT supported** on the [IMATH GitLab](https://gitlab.imath.uzh.ch) instance.
+At the IMATH, <i class="fab fa-git"></i> LFS is **supported** on the [IMATH GitLab](https://gitlab.imath.uzh.ch) instance.
 
-However, at the University of Zurich (UZH), <i class="fab fa-git"></i> LFS is supported on the [UZH GitLab](https://gitlab.uzh.ch) instance, with a **size limit of 15 GB per project** (this includes all parts of a project, i.e. <i class="fab fa-git"></i> repository, LFS, etc.). 
+At the University of Zurich [UZH GitLab](https://gitlab.uzh.ch) instance, <i class="fab fa-git"></i> LFS is supported, with a **size limit of 15 GB per project** (this includes all parts of a project, i.e. <i class="fab fa-git"></i> repository, LFS, etc.). 
 The data is stored in the [Switch Cloud](https://www.switch.ch/en/competencies/cloud), which is hosted outside UZH but remains within Switzerland, though generally the UZH data protection regulations still apply.
 
 Please note that GitLab is primarily intended for collaborative software development, not simply for data storage. 
