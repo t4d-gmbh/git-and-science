@@ -11,6 +11,21 @@ To use <i class="fab fa-git"></i> LFS, you need to install the <i class="fab fa-
      git lfs install
      ```
 
+
+{% endif %}
+
+:::{admonition} Adding tracked files
+:class: warning, margin
+Regularly tracked files need to be untracked first, before they can be tracked with git LFS:
+
+```bash
+git rm --cached "data.csv"
+git lfs track "data.csv"
+git add "data.csv"
+```
+:::
+
+{% if build == "pages" %}
 ### 2. Track Large Files:
    - Specify the file types to be tracked by <i class="fab fa-git"></i> LFS. For example, to track all `.pdf` files, run:
      ```bash
