@@ -1,4 +1,4 @@
-## Benefits of <i class="fab fa-git"></i> Submodules <i class="fa-solid fa-folder-tree"></i> for Reproducibility
+## Benefits for Reproducibility
 
 - **Pinning Submodules**: {% if slide %}By pinning submodules to specific commits, you ensure the same version of an external library, dataset (_remember <i class="fab fa-git"></i> LFS!_), or tool is always used, which is crucial for reproducibility in complex projects.{% else %} By pinning submodules to specific commits, you ensure the same version of an external library, dataset (_remember <i class="fab fa-git"></i> LFS!_), or tool is always used, which is crucial for reproducibility in complex projects.
   This helps avoid issues that arise from changes in dependencies.{% endif %}

@@ -1,4 +1,4 @@
-## What are <i class="fab fa-git"></i> Submodules <i class="fa-solid fa-folder-tree"></i>?
+## What are <i class="fab fa-git"></i> Submodules?
 {% if slide %}
 - A [<i class="fab fa-git"></i> submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) <i class="fa-solid fa-folder-tree"></i> is a **repository within another repository**.
 - It helps to **manage external repositories in your main project**.
