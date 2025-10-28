@@ -13,7 +13,7 @@ But how does the underlying mechanisms and data structures look like?
 
 **Blobs (Binary Large Objects)** are used to store the contents of files. 
 {% if page %}
-Each blob is identified by a SHA-1 hash of its content, ensuring that identical files are stored only once.
+Each blob is identified by an SHA-1 hash of its content, ensuring that identical files are stored only once.
 Blobs do not contain any metadata about the file, such as its name or permissions.
 {% endif %}
 
@@ -33,7 +33,7 @@ A commit object contains a pointer to a tree object (representing the state of t
 <i class="fab fa-git"></i> tracks changes to files through a series of stages:
 {% endif %}
 
-**Working Directory <i class="fa-solid fa-folder-open"></i>** is where you make changes to your files (recall, <i class="fab fa-git"></i> works asynchronically).
+**Working Directory <i class="fa-solid fa-folder-open"></i>** is where you make changes to your files (recall, <i class="fab fa-git"></i> works asynchronously).
 {% if page %}
 <i class="fab fa-git"></i> does not track these changes until you stage them.
 {% endif %}

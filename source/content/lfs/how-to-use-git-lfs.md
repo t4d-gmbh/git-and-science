@@ -30,7 +30,7 @@ To use <i class="fab fa-git"></i> LFS, you need to install the <i class="fab fa-
   ```
 
   Example: 
-  If you want to use Git LFS for large media files like images and videos, your .gitattributes file might look like this:
+  If you want to use Git LFS for large media files like images and videos, your `.gitattributes` file might look like this:
 
   ```bash
   # Use LFS for image files

@@ -18,7 +18,7 @@ Once a submodule is initialized and updated, its content appears as a regular fo
 ### Why are Submodules Useful?
 
 When working on a project, you may need to incorporate another project, such as a library developed by someone else or a tool you're building for use in multiple projects.
-A common challenge in these situations is maintaing separation between the two projects separate while being able to use one with the other.
+A common challenge in these situations is maintaining separation between the two projects separate while being able to use one with the other.
 
 For example, imagine you're conducting research and want to use a data analysis tool you previously developed for another project.
 You have two options: you could copy the code from the old project into your new one, or you could include it from a shared source. 

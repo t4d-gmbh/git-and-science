@@ -12,7 +12,7 @@
 
 Before we begin, it is important to clarify the definition of "reproducibility" as opposed to "replicability".
 
-In a scientific context, these terms are are often used interchangeably, but they can also refer to different concepts.
+In a scientific context, these terms are often used interchangeably, but they can also refer to different concepts.
 
 In this course, we adopt the widely accepted interpretation that reproducibility is achieved when an analysis can be repeated using the same data, yielding the same results.
 

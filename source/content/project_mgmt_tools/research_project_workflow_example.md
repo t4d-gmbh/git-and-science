@@ -1,7 +1,7 @@
 ## Example: Paper Review on <i class="fab fa-github"></i> or <i class="fab fa-gitlab"></i>
 
 {% if page %}
-To demonstrate how <i class="fab fa-git"></i> and <i class="fab fa-github"></i> **GitHub** or <i class="fab fa-gitlab"></i> **GitLab** can be useful to manage a paper review worklow, we will use as an example a fictional paper written in LaTeX, where multiple authors (or optionally, reviewers) provide and incorporate feedback into the manuscript.
+To demonstrate how <i class="fab fa-git"></i> and <i class="fab fa-github"></i> **GitHub** or <i class="fab fa-gitlab"></i> **GitLab** can be useful to manage a paper review workflow, we will use as an example a fictional paper written in LaTeX, where multiple authors (or optionally, reviewers) provide and incorporate feedback into the manuscript.
 
 ### Paper Writing Workflow on <i class="fab fa-github"></i>/<i class="fab fa-gitlab"></i>
 {% else %}

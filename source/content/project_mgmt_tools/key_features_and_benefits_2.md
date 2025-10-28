@@ -23,7 +23,7 @@ Comprehensive documentation is essential for reproducibility, allowing others to
 
 ### Collaboration and Communication
 {% if page %}
-Comments and Discussions on GitHub<i class="fab fa-github"></i> and GitLab<i class="fab fa-gitlab"></i> faciliate communication by allowing users to comment on code, issues, and merge requests. This ensures that team members stay aligned and that key decisions are well-documented.
+Comments and Discussions on GitHub<i class="fab fa-github"></i> and GitLab<i class="fab fa-gitlab"></i> facilitate communication by allowing users to comment on code, issues, and merge requests. This ensures that team members stay aligned and that key decisions are well-documented.
 {% else %}
 Facilitate communication by enabling comments on code, issues, and merge requests, keeping team members aligned and ensuring key decisions are well documented.
 {% endif %}

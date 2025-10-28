@@ -3,7 +3,7 @@
 <i class="fab fa-git"></i> is an excellent tool for version control, allowing you to track changes in code and facilitate collaborative development.
 However, achieving **scientific reproducibility** requires more than just using <i class="fab fa-git"></i>.
 
-Reproducibility encompasses not only code management but also the versioning od data, tracking the computational environment, ensuring consistent execution, and thoroughly documenting the workflow. This comprehensive approach enables others to reliably reproduce your results.
+Reproducibility encompasses not only code management but also the versioning of data, tracking the computational environment, ensuring consistent execution, and thoroughly documenting the workflow. This comprehensive approach enables others to reliably reproduce your results.
 
 {% endif %}
 

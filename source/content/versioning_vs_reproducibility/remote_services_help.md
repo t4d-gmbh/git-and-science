@@ -21,12 +21,12 @@ Checkout [git-and-its-remotes](https://t4d-gmbh.github.io/git-and-its-remotes) a
 
 {% else %}
 
-If you've explored [git-and-its-remotes](https://t4d-gmbh.github.io/git-and-its-remotes) and [ci-cd-workflows](https://t4d-gmbh.github.io/ci-cd-workflows), you may insights into how remote services like <i class="fab fa-github"></i> **GitHub** and <i class="fab fa-gitlab"></i> **GitLab** can improve the reproducibility of scientific analyses.
+If you've explored [git-and-its-remotes](https://t4d-gmbh.github.io/git-and-its-remotes) and [ci-cd-workflows](https://t4d-gmbh.github.io/ci-cd-workflows), you may have gained insights into how remote services like <i class="fab fa-github"></i> **GitHub** and <i class="fab fa-gitlab"></i> **GitLab** can improve the reproducibility of scientific analyses.
 
 One of the most significant contributions of these platforms is improved accessibility.
 Researchers can easily share their work, making it more available to others in the scientific community.
 
-Collaboration tools, such as Issues and Merge/Pull Requests, play a significant role in enhancing documentation for an analyses.
+Collaboration tools, such as Issues and Merge/Pull Requests, play a significant role in enhancing documentation for analyses.
 These tools are particularly effective for formalizing [features and track their implementation](https://t4d-gmbh.github.io/git-and-its-remotes/content/project_management/index.html#feature-branch-approach-reloaded).
 
 Automation is another important aspect of remote services, which allows for automated processes to be triggered by various events within a Repository or Project.

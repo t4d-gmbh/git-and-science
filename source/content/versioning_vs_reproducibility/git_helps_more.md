@@ -15,5 +15,5 @@
 
 While tracking large binary files is not <i class="fab fa-git"></i>'s strong suit, there is an extension called <i class="fab fa-git"></i> LFS that efficiently makes up for this limitation.
 
-With <i class="fab fa-git"></i> LFS, you can efficiently track and version larger dataset, thereby contributing to the **availability of analysed data** by publishing your findings alongside the exact version of the dataset used in your analysis.
+With <i class="fab fa-git"></i> LFS, you can efficiently track and version larger dataset, thereby contributing to the **availability of analyzed data** by publishing your findings alongside the exact version of the dataset used in your analysis.
 {% endif %}
