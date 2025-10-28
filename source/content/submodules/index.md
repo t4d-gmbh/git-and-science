@@ -14,6 +14,7 @@
 ./working_with
 ./gotchas.md
 ./cicd_usage/index
+./exo_inspect_course_content
 
 ```
 {% else %}
@@ -40,6 +41,8 @@
 ```{include} ./cicd_usage/github.md
 ```
 ```{include} ./cicd_usage/gitlab.md
+```
+```{include} ./exo_inspect_course_content.md
 ```
 {% endif %}
 
