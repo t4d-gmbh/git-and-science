@@ -18,8 +18,16 @@
 ```
 ```{include} ./comparison-git-gitlfs.md
 ```
-```{include} ./git_data_model/index.md
+
+# <i class="fab fa-git"></i> Data Model
+
+Let's dive deeper into the technical details of how <i class="fab fa-git"></i> and <i class="fab fa-git"></i> LFS handle files.
+
+```{include} ./git_data_model/git_data_model.md
 ```
+```{include} ./git_data_model/gitLFS_data_model.md
+```
+
 ```{include} ./how-to-use-git-lfs.md
 ```
 ```{include} ./gitLFS_UZH.md
