@@ -31,8 +31,8 @@ Each of the 4 parts of this course resides in its own Repository:
 ::::
 
 {% if page %}
-In this Repository all the content is aggergated, compiled into `html` and published as a [GitHub page](https://docs.github.com/en/pages).
-However, the content of the four parts does not reside directly in this Repository itself:
+In this main course Repository (**<https://github.com/t4d-gmbh/using-git-in-academia>**) all the content is aggregated, compiled into `html`, and published as a [GitHub page](https://docs.github.com/en/pages).
+However, the content of the four parts does not reside directly in the main course **<https://github.com/t4d-gmbh/using-git-in-academia>** Repository itself:
 {% else %}
 In **<https://github.com/t4d-gmbh/using-git-in-academia>** the four parts are combined and the `html` pages are built.
 {% endif %}
@@ -43,7 +43,7 @@ In **<https://github.com/t4d-gmbh/using-git-in-academia>** the four parts are co
 :::{grid-item-card} {octicon}`question;1em` Key Questions
 :class-header: sd-bg-warning sd-text-white
 
-- How are the four parts included into the main repository?
+- How are the four parts included into the main course repository (**<https://github.com/t4d-gmbh/using-git-in-academia>**)?
 - What are the advantages of such a setup?
 - What are potential drawbacks?
 
@@ -52,7 +52,7 @@ In **<https://github.com/t4d-gmbh/using-git-in-academia>** the four parts are co
 :::{grid-item-card} {octicon}`light-bulb;1em` Hint
 :class-header: sd-bg-info sd-text-white
 
-- Have a look at the `source/content` folder in the main repository.
+- Have a look at the `source/content` folder in the main course repository (**<https://github.com/t4d-gmbh/using-git-in-academia>**).
 - The `source/index.md` file declares what is included in the `html` content.
 :::
 ::::
@@ -75,7 +75,7 @@ This is specified in the [`.gitmodules`](https://github.com/t4d-gmbh/using-git-i
 
 With this setup we can fetch the content of the submodules (e.g. with `git submodule update --remote`) "unpacking" the content of the repositories into the specified paths.
 
-The actual import of the content is then initiated in the `source/index.md` file with import block like this (simplified):
+The actual import of the content is then initiated in the `source/index.md` file with an import block like this (simplified):
 
 ```markdown 
 \```{toctree}
@@ -94,15 +94,15 @@ Finally, the process is automated in the `pages.yml` workflow, that fetches the 
 :::{admonition} Advantages of such a setup
 :class: tip, dropdown
 
-With submodules, we can **decouple the content of each part** from each other and the main course.
+With submodules, we can **decouple the content of each part** from each other and the main course (**<https://github.com/t4d-gmbh/using-git-in-academia>**).
 This allows for independent development in each part without affecting the others and the combined content.
 
 In addition, each version of the combined content (i.e. each commit in **<https://github.com/t4d-gmbh/using-git-in-academia>**) specifies the exact version (i.e. the commit hash) of each of the four parts included.
-Thus, whenever we checkout a specific commit in the `using-git-in-academia` repository, we will also get the specific versions of the four parts.
+Thus, whenever we "checkout" a specific commit in the `using-git-in-academia` repository, we will also get the specific versions of the four parts.
 
 Furthermore, we can **decide for each part individually which version we want to use**. We simply set the submodule to the state we want and create a new tag in the main repository.
 
-Finally, the **parts can be viewed on their own**, see e.g. https://t4d-gmbh.github.io/working-with-git/ or recombined differently.
+Finally, the **parts can be viewed on their own**, see e.g. [t4d-gmbh.github.io/working-with-git/](https://t4d-gmbh.github.io/working-with-git/) or recombined differently.
 
 :::
 
