@@ -2,7 +2,7 @@
 :::{card}
 ### Version Control with Feature Branch Workflow
 {% if page %}
-GitHub<i class="fab fa-github"></i> and GitHub<i class="fab fa-gitlab"></i> allow teams to track changes, revert to previous versions, and collaborate seamlessly on code. 
+GitHub<i class="fab fa-github"></i> and GitLab<i class="fab fa-gitlab"></i> allow teams to track changes, revert to previous versions, and collaborate seamlessly on code. 
 This ensures that all modifications are documented, which is crucial for **transparency and accountability**.
 {% else %}
 Track changes, revert to previous versions, and seamless collaboration are crucial for **transparency and accountability**.

@@ -4,9 +4,9 @@
 
 ### Continuous Integration/Continuous Deployment (CI/CD)
 {% if page %}
-GitHub<i class="fab fa-github"></i> Actions and GitLab<i class="fab fa-gitlab"></i> CI/CD provide automated testing and deployment pipelines. These tools ensure that code changes are tested and validated before being merged, reducing risk of introducing errors and ensuring that the codebase remains stable and reliable.
+GitHub<i class="fab fa-github"></i> Actions and GitLab<i class="fab fa-gitlab"></i> CI/CD provide automated testing and deployment pipelines. These tools ensure that code changes are tested and validated before being merged, reducing the risk of introducing errors and ensuring that the codebase remains stable and reliable.
 {% else %}
-Automated testing and deployment pipelines reduce risk of errors and ensure codebase stability.
+Automated testing and deployment pipelines reduce the risk of errors and ensure codebase stability.
 {% endif %}
 :::
 

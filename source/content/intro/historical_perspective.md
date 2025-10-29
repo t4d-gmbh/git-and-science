@@ -6,7 +6,7 @@ Before <i class="fab fa-git"></i>, the Linux <i class="fa-brands fa-linux"></i> 
 Torvalds designed <i class="fab fa-git"></i> to be fast, efficient, and capable of handling large projects with a distributed workflow.
 
 Initially, <i class="fab fa-git"></i> was primarily used by software developers, but its robust features soon caught the attention of other fields, including scientific research. 
-The scientific community recognized the <i class="fab fa-git"></i>'s potential for managing complex projects, tracking changes, and facilitating collaboration. 
+The scientific community recognized <i class="fab fa-git"></i>'s potential for managing complex projects, tracking changes, and facilitating collaboration. 
 Here’s how <i class="fab fa-git"></i> evolved to become a powerful tool in science:
 
 - **Adoption by Open-Source Projects:** <i class="fab fa-git"></i>’s success in open-source software projects demonstrated its capabilities in managing collaborative work, which is also highly relevant in scientific research.
